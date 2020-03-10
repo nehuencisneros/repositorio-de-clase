@@ -1,0 +1,33 @@
+h1{
+    background-image: url(../img/thor1.jpg);
+    height: 500px;
+    width: 650px;
+    text-align: center;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    display:block;
+    margin:auto;
+    
+}
+body{
+    background-image: url(../img/truenos.jpg);
+    background-size: cover;
+}
+p{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 20px;
+    
+}
+strong{
+    color: rgb(121, 123, 255);
+}
+#gordi{
+    display:block;
+    margin:auto;
+    height: 420px;
+    width: 650px;
+}

@@ -1,0 +1,41 @@
+#aven{
+    width: 20%;
+    display:block;
+    margin:auto;
+}
+body{
+    background-image: url(../img/torre-vengadores.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-family: "comic sans";
+    font-size: 45px;
+}
+a{
+    color: rgb(200, 100, 50);
+    text-decoration: none;
+    font-weight: bold;
+}
+#contenido{
+    float: right;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px;
+    box-sizing: border-box;
+}
+#menu{
+    width: 30%;
+    float: left;
+    background-color: #accac4a8;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 25px;
+    text-emphasis: bold;
+}
