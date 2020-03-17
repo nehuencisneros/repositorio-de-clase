@@ -33,5 +33,17 @@ nav li a{
     color: white;
     text-decoration: none;
 }
+figure img{
+    display: block;
+    width: 100%;
+}
+figure figcaption{
+    background-color: #232323;
+}
+figure h2{
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    padding: 2rem;
 
-
+}
