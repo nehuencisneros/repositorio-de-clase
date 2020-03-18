@@ -1,10 +1,14 @@
 :root{
     font-size: 62.5%
 }
+*{
+    outline: dotted 1px RED;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #232323;
     font-size: 1.5rem;
+    overflow-x: hidden;
 }
 header{
     background-color: #232323;
@@ -33,6 +37,15 @@ nav li a{
     color: white;
     text-decoration: none;
 }
+#noticias-destacadas{
+    width: 300vw;
+    overflow: auto;
+    animation: 15s slider infinite;
+}
+figure{
+    float: left;
+    width: 100vw;
+}
 figure img{
     display: block;
     width: 100%;
@@ -45,5 +58,15 @@ figure h2{
     font-weight: 600;
     font-size: 4rem;
     padding: 2rem;
+}
 
+@keyframes slider {
+   0%{ margin-left: 0;}
+   20%{ margin-left: 0;}
+
+   40%{ margin-left: -100vw;}
+   60%{ margin-left: -100vw;}
+   
+   80%{ margin-left: -200vw;}
+   100%{ margin-left: -200vw;}
 }
