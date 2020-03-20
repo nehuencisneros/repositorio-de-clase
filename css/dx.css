@@ -40,13 +40,13 @@ nav li a{
 #noticias-destacadas{
     width: 300vw;
     overflow: auto;
-    animation: 15s slider infinite;
+    /*animation: 15s slider infinite;*/
 }
 figure{
     float: left;
     width: 100vw;
 }
-figure img{
+img{
     display: block;
     width: 100%;
 }
@@ -58,7 +58,34 @@ figure h2{
     font-weight: 600;
     font-size: 4rem;
     padding: 2rem;
+    line-height: 100%;
 }
+.noticia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 15rem;
+}
+.noticia-img{
+    width: 25%;
+}
+.noticia-txt{
+    width: 65%;
+}
+.noticia-txt h3{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 125%;
+}
+.noticia-txt p:nth-last-of-type(1) {
+    line-height: 200%;
+}
+.noticia-txt p:nth-of-type(1) a{
+    text-decoration: none;
+    color: black;
+}
+
 
 @keyframes slider {
    0%{ margin-left: 0;}
