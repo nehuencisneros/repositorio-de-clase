@@ -116,7 +116,7 @@ img{
     border: none;
 }
 #tabla-resultados table{
-    width: 600px;
+    width: 700px;
     margin: auto;
 }
 #tabla-resultados td:nth-of-type(odd){
